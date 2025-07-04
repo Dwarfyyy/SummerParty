@@ -1,0 +1,125 @@
+PS C:\Users\79022\Desktop\SummerParty\homework3> & C:/Users/79022/Desktop/SummerParty/homework3/venv/Scripts/python.exe c:/Users/79022/Desktop/SummerParty/homework3/homework_regularization_experiments.py
+2025-07-04 03:21:56,437 - INFO - Запуск эксперимента с регуляризацией: no_reg
+2025-07-04 03:22:19,816 - INFO - Эпоха 1: Train Loss: 0.2262, Train Acc: 0.9324, Test Loss: 0.1285, Test Acc: 0.9584
+2025-07-04 03:22:35,741 - INFO - Эпоха 2: Train Loss: 0.0938, Train Acc: 0.9705, Test Loss: 0.1039, Test Acc: 0.9692
+2025-07-04 03:22:51,884 - INFO - Эпоха 3: Train Loss: 0.0643, Train Acc: 0.9794, Test Loss: 0.1066, Test Acc: 0.9686
+2025-07-04 03:23:07,871 - INFO - Эпоха 4: Train Loss: 0.0494, Train Acc: 0.9840, Test Loss: 0.0777, Test Acc: 0.9768
+2025-07-04 03:23:23,550 - INFO - Эпоха 5: Train Loss: 0.0393, Train Acc: 0.9874, Test Loss: 0.0836, Test Acc: 0.9740
+2025-07-04 03:23:39,103 - INFO - Эпоха 6: Train Loss: 0.0329, Train Acc: 0.9888, Test Loss: 0.0785, Test Acc: 0.9770
+2025-07-04 03:23:54,625 - INFO - Эпоха 7: Train Loss: 0.0285, Train Acc: 0.9905, Test Loss: 0.0935, Test Acc: 0.9768
+2025-07-04 03:24:10,168 - INFO - Эпоха 8: Train Loss: 0.0249, Train Acc: 0.9916, Test Loss: 0.0767, Test Acc: 0.9798
+2025-07-04 03:24:25,662 - INFO - Эпоха 9: Train Loss: 0.0243, Train Acc: 0.9914, Test Loss: 0.0767, Test Acc: 0.9802
+2025-07-04 03:24:41,219 - INFO - Эпоха 10: Train Loss: 0.0185, Train Acc: 0.9939, Test Loss: 0.1010, Test Acc: 0.9770
+2025-07-04 03:24:57,083 - INFO - Стабильность обучения (no_reg): Стандартное отклонение потерь: 0.0173
+2025-07-04 03:24:57,084 - INFO - Регуляризация no_reg: Train Acc: 0.9939, Test Acc: 0.9770, Время: 164.64 сек
+2025-07-04 03:24:57,084 - INFO - Запуск эксперимента с регуляризацией: dropout_0.1
+2025-07-04 03:25:12,928 - INFO - Эпоха 1: Train Loss: 0.2532, Train Acc: 0.9235, Test Loss: 0.1201, Test Acc: 0.9602
+2025-07-04 03:25:28,685 - INFO - Эпоха 2: Train Loss: 0.1118, Train Acc: 0.9648, Test Loss: 0.0860, Test Acc: 0.9707
+2025-07-04 03:25:44,359 - INFO - Эпоха 3: Train Loss: 0.0837, Train Acc: 0.9744, Test Loss: 0.0768, Test Acc: 0.9762
+2025-07-04 03:26:00,179 - INFO - Эпоха 4: Train Loss: 0.0671, Train Acc: 0.9789, Test Loss: 0.0725, Test Acc: 0.9780
+2025-07-04 03:26:16,737 - INFO - Эпоха 5: Train Loss: 0.0561, Train Acc: 0.9823, Test Loss: 0.0662, Test Acc: 0.9800
+2025-07-04 03:26:32,539 - INFO - Эпоха 6: Train Loss: 0.0462, Train Acc: 0.9847, Test Loss: 0.0746, Test Acc: 0.9789
+2025-07-04 03:26:48,555 - INFO - Эпоха 7: Train Loss: 0.0439, Train Acc: 0.9856, Test Loss: 0.0718, Test Acc: 0.9784
+2025-07-04 03:27:04,247 - INFO - Эпоха 8: Train Loss: 0.0375, Train Acc: 0.9878, Test Loss: 0.0762, Test Acc: 0.9795
+2025-07-04 03:27:19,971 - INFO - Эпоха 9: Train Loss: 0.0368, Train Acc: 0.9876, Test Loss: 0.0694, Test Acc: 0.9801
+2025-07-04 03:27:35,678 - INFO - Эпоха 10: Train Loss: 0.0329, Train Acc: 0.9891, Test Loss: 0.0784, Test Acc: 0.9798
+2025-07-04 03:27:51,096 - INFO - Стабильность обучения (dropout_0.1): Стандартное отклонение потерь: 0.0154
+2025-07-04 03:27:51,096 - INFO - Регуляризация dropout_0.1: Train Acc: 0.9953, Test Acc: 0.9798, Время: 158.58 сек
+2025-07-04 03:27:51,096 - INFO - Запуск эксперимента с регуляризацией: dropout_0.3
+2025-07-04 03:28:07,223 - INFO - Эпоха 1: Train Loss: 0.3087, Train Acc: 0.9053, Test Loss: 0.1281, Test Acc: 0.9610
+2025-07-04 03:28:23,065 - INFO - Эпоха 2: Train Loss: 0.1528, Train Acc: 0.9540, Test Loss: 0.1010, Test Acc: 0.9673
+2025-07-04 03:28:38,828 - INFO - Эпоха 3: Train Loss: 0.1233, Train Acc: 0.9634, Test Loss: 0.0875, Test Acc: 0.9726
+2025-07-04 03:28:54,489 - INFO - Эпоха 4: Train Loss: 0.1022, Train Acc: 0.9686, Test Loss: 0.0737, Test Acc: 0.9770
+2025-07-04 03:29:10,142 - INFO - Эпоха 5: Train Loss: 0.0931, Train Acc: 0.9719, Test Loss: 0.0762, Test Acc: 0.9771
+2025-07-04 03:29:25,772 - INFO - Эпоха 6: Train Loss: 0.0854, Train Acc: 0.9734, Test Loss: 0.0770, Test Acc: 0.9771
+2025-07-04 03:29:41,905 - INFO - Эпоха 7: Train Loss: 0.0783, Train Acc: 0.9759, Test Loss: 0.0796, Test Acc: 0.9767
+2025-07-04 03:29:58,145 - INFO - Эпоха 8: Train Loss: 0.0748, Train Acc: 0.9776, Test Loss: 0.0670, Test Acc: 0.9807
+2025-07-04 03:30:14,202 - INFO - Эпоха 9: Train Loss: 0.0684, Train Acc: 0.9785, Test Loss: 0.0687, Test Acc: 0.9806
+2025-07-04 03:30:29,856 - INFO - Эпоха 10: Train Loss: 0.0662, Train Acc: 0.9795, Test Loss: 0.0673, Test Acc: 0.9813
+2025-07-04 03:30:45,161 - INFO - Стабильность обучения (dropout_0.3): Стандартное отклонение потерь: 0.0191
+2025-07-04 03:30:45,161 - INFO - Регуляризация dropout_0.3: Train Acc: 0.9922, Test Acc: 0.9813, Время: 158.76 сек
+2025-07-04 03:30:45,161 - INFO - Запуск эксперимента с регуляризацией: dropout_0.5
+2025-07-04 03:31:01,026 - INFO - Эпоха 1: Train Loss: 0.4126, Train Acc: 0.8731, Test Loss: 0.1482, Test Acc: 0.9542
+2025-07-04 03:31:16,789 - INFO - Эпоха 2: Train Loss: 0.2328, Train Acc: 0.9335, Test Loss: 0.1138, Test Acc: 0.9660
+2025-07-04 03:31:32,483 - INFO - Эпоха 3: Train Loss: 0.1959, Train Acc: 0.9427, Test Loss: 0.1079, Test Acc: 0.9676
+2025-07-04 03:31:48,219 - INFO - Эпоха 4: Train Loss: 0.1757, Train Acc: 0.9488, Test Loss: 0.0978, Test Acc: 0.9700
+2025-07-04 03:32:03,926 - INFO - Эпоха 5: Train Loss: 0.1586, Train Acc: 0.9532, Test Loss: 0.0946, Test Acc: 0.9729
+2025-07-04 03:32:19,665 - INFO - Эпоха 6: Train Loss: 0.1559, Train Acc: 0.9545, Test Loss: 0.0856, Test Acc: 0.9739
+2025-07-04 03:32:35,366 - INFO - Эпоха 7: Train Loss: 0.1460, Train Acc: 0.9578, Test Loss: 0.0855, Test Acc: 0.9748
+2025-07-04 03:32:51,112 - INFO - Эпоха 8: Train Loss: 0.1466, Train Acc: 0.9580, Test Loss: 0.0830, Test Acc: 0.9738
+2025-07-04 03:33:06,833 - INFO - Эпоха 9: Train Loss: 0.1341, Train Acc: 0.9604, Test Loss: 0.0776, Test Acc: 0.9760
+2025-07-04 03:33:22,568 - INFO - Эпоха 10: Train Loss: 0.1307, Train Acc: 0.9610, Test Loss: 0.0875, Test Acc: 0.9744
+2025-07-04 03:33:38,058 - INFO - Стабильность обучения (dropout_0.5): Стандартное отклонение потерь: 0.0209
+2025-07-04 03:33:38,058 - INFO - Регуляризация dropout_0.5: Train Acc: 0.9841, Test Acc: 0.9744, Время: 157.40 сек
+2025-07-04 03:33:38,058 - INFO - Запуск эксперимента с регуляризацией: batch_norm
+2025-07-04 03:33:54,728 - INFO - Эпоха 1: Train Loss: 0.2038, Train Acc: 0.9424, Test Loss: 0.0892, Test Acc: 0.9732
+2025-07-04 03:34:12,030 - INFO - Эпоха 2: Train Loss: 0.0826, Train Acc: 0.9753, Test Loss: 0.0766, Test Acc: 0.9770
+2025-07-04 03:34:28,325 - INFO - Эпоха 3: Train Loss: 0.0609, Train Acc: 0.9805, Test Loss: 0.0650, Test Acc: 0.9797
+2025-07-04 03:34:44,458 - INFO - Эпоха 4: Train Loss: 0.0452, Train Acc: 0.9858, Test Loss: 0.0608, Test Acc: 0.9806
+2025-07-04 03:35:00,429 - INFO - Эпоха 5: Train Loss: 0.0335, Train Acc: 0.9899, Test Loss: 0.0669, Test Acc: 0.9786
+2025-07-04 03:35:16,404 - INFO - Эпоха 6: Train Loss: 0.0313, Train Acc: 0.9895, Test Loss: 0.0711, Test Acc: 0.9784
+2025-07-04 03:35:32,386 - INFO - Эпоха 7: Train Loss: 0.0272, Train Acc: 0.9903, Test Loss: 0.0617, Test Acc: 0.9804
+2025-07-04 03:35:48,358 - INFO - Эпоха 8: Train Loss: 0.0222, Train Acc: 0.9929, Test Loss: 0.0695, Test Acc: 0.9817
+2025-07-04 03:36:04,373 - INFO - Эпоха 9: Train Loss: 0.0211, Train Acc: 0.9927, Test Loss: 0.0640, Test Acc: 0.9812
+2025-07-04 03:36:20,326 - INFO - Эпоха 10: Train Loss: 0.0164, Train Acc: 0.9945, Test Loss: 0.0676, Test Acc: 0.9811
+2025-07-04 03:36:35,964 - INFO - Стабильность обучения (batch_norm): Стандартное отклонение потерь: 0.0084
+2025-07-04 03:36:35,964 - INFO - Регуляризация batch_norm: Train Acc: 0.9975, Test Acc: 0.9811, Время: 162.25 сек
+2025-07-04 03:36:35,964 - INFO - Запуск эксперимента с регуляризацией: dropout_batch_norm
+2025-07-04 03:36:52,069 - INFO - Эпоха 1: Train Loss: 0.3004, Train Acc: 0.9166, Test Loss: 0.1094, Test Acc: 0.9663
+2025-07-04 03:37:08,102 - INFO - Эпоха 2: Train Loss: 0.1521, Train Acc: 0.9543, Test Loss: 0.0811, Test Acc: 0.9752
+2025-07-04 03:37:24,155 - INFO - Эпоха 3: Train Loss: 0.1229, Train Acc: 0.9623, Test Loss: 0.0716, Test Acc: 0.9779
+2025-07-04 03:37:40,206 - INFO - Эпоха 4: Train Loss: 0.1083, Train Acc: 0.9669, Test Loss: 0.0663, Test Acc: 0.9798
+2025-07-04 03:37:56,418 - INFO - Эпоха 5: Train Loss: 0.0940, Train Acc: 0.9704, Test Loss: 0.0602, Test Acc: 0.9803
+2025-07-04 03:38:12,864 - INFO - Эпоха 6: Train Loss: 0.0896, Train Acc: 0.9717, Test Loss: 0.0619, Test Acc: 0.9808
+2025-07-04 03:38:29,165 - INFO - Эпоха 7: Train Loss: 0.0755, Train Acc: 0.9764, Test Loss: 0.0575, Test Acc: 0.9821
+2025-07-04 03:38:45,583 - INFO - Эпоха 8: Train Loss: 0.0723, Train Acc: 0.9769, Test Loss: 0.0573, Test Acc: 0.9820
+2025-07-04 03:39:01,715 - INFO - Эпоха 9: Train Loss: 0.0634, Train Acc: 0.9800, Test Loss: 0.0569, Test Acc: 0.9824
+2025-07-04 03:39:17,795 - INFO - Эпоха 10: Train Loss: 0.0622, Train Acc: 0.9796, Test Loss: 0.0529, Test Acc: 0.9840
+2025-07-04 03:39:33,434 - INFO - Стабильность обучения (dropout_batch_norm): Стандартное отклонение потерь: 0.0169
+2025-07-04 03:39:33,434 - INFO - Регуляризация dropout_batch_norm: Train Acc: 0.9956, Test Acc: 0.9840, Время: 161.83 сек       
+2025-07-04 03:39:33,434 - INFO - Запуск эксперимента с регуляризацией: l2_reg
+2025-07-04 03:39:49,363 - INFO - Эпоха 1: Train Loss: 0.2209, Train Acc: 0.9334, Test Loss: 0.1380, Test Acc: 0.9550
+2025-07-04 03:40:05,257 - INFO - Эпоха 2: Train Loss: 0.0902, Train Acc: 0.9727, Test Loss: 0.1020, Test Acc: 0.9699
+2025-07-04 03:40:21,148 - INFO - Эпоха 3: Train Loss: 0.0659, Train Acc: 0.9788, Test Loss: 0.0825, Test Acc: 0.9737
+2025-07-04 03:40:37,069 - INFO - Эпоха 4: Train Loss: 0.0510, Train Acc: 0.9841, Test Loss: 0.0719, Test Acc: 0.9784
+2025-07-04 03:40:52,941 - INFO - Эпоха 5: Train Loss: 0.0428, Train Acc: 0.9859, Test Loss: 0.0885, Test Acc: 0.9750
+2025-07-04 03:41:08,975 - INFO - Эпоха 6: Train Loss: 0.0391, Train Acc: 0.9869, Test Loss: 0.1109, Test Acc: 0.9710
+2025-07-04 03:41:24,863 - INFO - Эпоха 7: Train Loss: 0.0327, Train Acc: 0.9895, Test Loss: 0.0756, Test Acc: 0.9778
+2025-07-04 03:41:40,796 - INFO - Эпоха 8: Train Loss: 0.0296, Train Acc: 0.9902, Test Loss: 0.0879, Test Acc: 0.9770
+2025-07-04 03:41:56,837 - INFO - Эпоха 9: Train Loss: 0.0279, Train Acc: 0.9908, Test Loss: 0.0893, Test Acc: 0.9750
+2025-07-04 03:42:12,810 - INFO - Эпоха 10: Train Loss: 0.0257, Train Acc: 0.9914, Test Loss: 0.0933, Test Acc: 0.9769
+2025-07-04 03:42:28,376 - INFO - Стабильность обучения (l2_reg): Стандартное отклонение потерь: 0.0193
+2025-07-04 03:42:28,376 - INFO - Регуляризация l2_reg: Train Acc: 0.9914, Test Acc: 0.9769, Время: 159.37 сек
+2025-07-04 03:42:44,220 - INFO - Эпоха 1: Train Loss: 0.2516, Train Acc: 0.9230, Test Loss: 0.1081, Test Acc: 0.9668
+2025-07-04 03:42:59,944 - INFO - Эпоха 2: Train Loss: 0.1112, Train Acc: 0.9663, Test Loss: 0.0799, Test Acc: 0.9735
+2025-07-04 03:43:16,063 - INFO - Эпоха 3: Train Loss: 0.0830, Train Acc: 0.9744, Test Loss: 0.0757, Test Acc: 0.9744
+2025-07-04 03:43:31,771 - INFO - Эпоха 4: Train Loss: 0.0657, Train Acc: 0.9790, Test Loss: 0.0755, Test Acc: 0.9772
+2025-07-04 03:43:47,498 - INFO - Эпоха 5: Train Loss: 0.0548, Train Acc: 0.9825, Test Loss: 0.0673, Test Acc: 0.9798
+2025-07-04 03:44:03,233 - INFO - Эпоха 6: Train Loss: 0.0483, Train Acc: 0.9840, Test Loss: 0.0766, Test Acc: 0.9766
+2025-07-04 03:44:19,023 - INFO - Эпоха 7: Train Loss: 0.0423, Train Acc: 0.9865, Test Loss: 0.0792, Test Acc: 0.9769
+2025-07-04 03:44:34,746 - INFO - Эпоха 8: Train Loss: 0.0399, Train Acc: 0.9864, Test Loss: 0.0770, Test Acc: 0.9790
+2025-07-04 03:44:50,491 - INFO - Эпоха 9: Train Loss: 0.0361, Train Acc: 0.9880, Test Loss: 0.0762, Test Acc: 0.9793
+2025-07-04 03:45:06,231 - INFO - Эпоха 10: Train Loss: 0.0346, Train Acc: 0.9886, Test Loss: 0.0718, Test Acc: 0.9798
+2025-07-04 03:45:19,100 - INFO - Адаптивный Dropout adaptive_dropout_0.1: Train Acc: 0.9942, Test Acc: 0.9798, Время: 157.85 сек
+2025-07-04 03:45:34,860 - INFO - Эпоха 1: Train Loss: 0.3117, Train Acc: 0.9049, Test Loss: 0.1207, Test Acc: 0.9636
+2025-07-04 03:45:50,681 - INFO - Эпоха 2: Train Loss: 0.1552, Train Acc: 0.9533, Test Loss: 0.0981, Test Acc: 0.9692
+2025-07-04 03:46:06,575 - INFO - Эпоха 3: Train Loss: 0.1222, Train Acc: 0.9636, Test Loss: 0.0887, Test Acc: 0.9744
+2025-07-04 03:46:22,544 - INFO - Эпоха 4: Train Loss: 0.1049, Train Acc: 0.9678, Test Loss: 0.0848, Test Acc: 0.9753
+2025-07-04 03:46:38,288 - INFO - Эпоха 5: Train Loss: 0.0943, Train Acc: 0.9704, Test Loss: 0.0749, Test Acc: 0.9788
+2025-07-04 03:46:54,041 - INFO - Эпоха 6: Train Loss: 0.0857, Train Acc: 0.9733, Test Loss: 0.0663, Test Acc: 0.9811
+2025-07-04 03:47:09,819 - INFO - Эпоха 7: Train Loss: 0.0801, Train Acc: 0.9752, Test Loss: 0.0671, Test Acc: 0.9801
+2025-07-04 03:47:25,518 - INFO - Эпоха 8: Train Loss: 0.0761, Train Acc: 0.9760, Test Loss: 0.0643, Test Acc: 0.9816
+2025-07-04 03:47:41,180 - INFO - Эпоха 9: Train Loss: 0.0732, Train Acc: 0.9774, Test Loss: 0.0729, Test Acc: 0.9796
+2025-07-04 03:47:56,906 - INFO - Эпоха 10: Train Loss: 0.0647, Train Acc: 0.9797, Test Loss: 0.0697, Test Acc: 0.9800
+2025-07-04 03:48:09,776 - INFO - Адаптивный Dropout adaptive_dropout_0.3: Train Acc: 0.9926, Test Acc: 0.9800, Время: 157.80 сек
+2025-07-04 03:48:25,475 - INFO - Эпоха 1: Train Loss: 0.4192, Train Acc: 0.8717, Test Loss: 0.1538, Test Acc: 0.9514
+2025-07-04 03:48:41,215 - INFO - Эпоха 2: Train Loss: 0.2314, Train Acc: 0.9325, Test Loss: 0.1186, Test Acc: 0.9631
+2025-07-04 03:48:56,927 - INFO - Эпоха 3: Train Loss: 0.1936, Train Acc: 0.9445, Test Loss: 0.1063, Test Acc: 0.9675
+2025-07-04 03:49:12,667 - INFO - Эпоха 4: Train Loss: 0.1725, Train Acc: 0.9495, Test Loss: 0.0960, Test Acc: 0.9703
+2025-07-04 03:49:28,393 - INFO - Эпоха 5: Train Loss: 0.1651, Train Acc: 0.9520, Test Loss: 0.0906, Test Acc: 0.9740
+2025-07-04 03:49:44,101 - INFO - Эпоха 6: Train Loss: 0.1518, Train Acc: 0.9558, Test Loss: 0.0900, Test Acc: 0.9734
+2025-07-04 03:49:59,847 - INFO - Эпоха 7: Train Loss: 0.1478, Train Acc: 0.9569, Test Loss: 0.0849, Test Acc: 0.9744
+2025-07-04 03:50:15,580 - INFO - Эпоха 8: Train Loss: 0.1402, Train Acc: 0.9579, Test Loss: 0.0863, Test Acc: 0.9742
+2025-07-04 03:50:31,275 - INFO - Эпоха 9: Train Loss: 0.1304, Train Acc: 0.9614, Test Loss: 0.0816, Test Acc: 0.9758
+2025-07-04 03:50:46,972 - INFO - Эпоха 10: Train Loss: 0.1310, Train Acc: 0.9606, Test Loss: 0.0865, Test Acc: 0.9764
+2025-07-04 03:50:59,815 - INFO - Адаптивный Dropout adaptive_dropout_0.5: Train Acc: 0.9858, Test Acc: 0.9764, Время: 157.19 сек
