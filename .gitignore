@@ -1,0 +1,12 @@
+homework4/data/cifar-10-python.tar.gz
+homework6/lightning_logs/version_0/checkpoints/epoch=2-step=1416.ckpt
+/homework7/__pycache__
+/homework6/lightning_logs
+/homework7/data/test
+/homework7/data/train
+/homework7/env
+/homework7/weights
+homework7/utils/__pycache__/plot_utils.cpython-39.pyc
+homework6/results/2/checkpoint.pt
+homework6/results/checkpoint.pt
+homework6/results/1/checkpoint.pt
