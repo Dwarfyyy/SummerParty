@@ -1,0 +1,14 @@
+Дата и время: 2025-07-17_17-15-12 (CEST)
+Потери на тесте: 0.7242
+Точность: 0.8650
+F1-Score: 0.8651
+Weighted Precision: 0.8713
+Precision по классам:
+hyundai: 0.9111
+lexus: 0.9388
+mazda: 0.8113
+mercedes: 0.9000
+opel: 0.8723
+skoda: 0.7797
+toyota: 0.9500
+volkswagen: 0.8070
