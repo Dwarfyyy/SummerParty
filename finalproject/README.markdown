@@ -93,15 +93,15 @@ car-logo-classification/
   - График точности по классам:  
     ![Точность по классам](results/plots/precision_by_class.png)
   - Коллаж 1:  
-    ![Коллаж 1](results/predictions/collage_1.png)
+    ![Коллаж 1](results/predictions/collage1.png)
   - Коллаж 2:  
-    ![Коллаж 2](results/predictions/collage_2.png)
+    ![Коллаж 2](results/predictions/collage2.png)
   - Коллаж 3:  
-    ![Коллаж 3](results/predictions/collage_3.png)
+    ![Коллаж 3](results/predictions/collage3.png)
   - Коллаж 4:  
-    ![Коллаж 4](results/predictions/collage_4.png)
+    ![Коллаж 4](results/predictions/collage4.png)
   - Коллаж 5:  
-    ![Коллаж 5](results/predictions/collage_5.png)
+    ![Коллаж 5](results/predictions/collage5.png)
   - Метрики: `results/predictions/evaluation_metrics_2025-07-17_14-28-00.txt`
 
 ## Вывод
